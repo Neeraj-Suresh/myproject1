@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="	sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <header class="">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" width="20" align="left" ><strong>Shape Rex</strong></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+              <li><a href="#" class="notification"><span class="glyphicon glyphicon-bell"><span class="badge">5</span></span></a></li>
+              <li><a href="#" class="notification"><span class="glyphicon glyphicon-envelope"><span class="badge">2</span></span></a></li>
+              <li><a href="#"><img src="face.jpg" class="img-circle" alt="Cinque Terre" width="26" height="28"></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="container">
+             <div class="col-md-2">
+          <div class="sidebar">
+              <a href="#"><span class="glyphicon glyphicon-th-large"> Dashboard </span></a>
+              <a href="#"><span class="glyphicon glyphicon-folder-open"> Myproject </span></a>
+              <a href="#"><span class="glyphicon glyphicon-credit-card"> MyWallet </span></a>
+              <a href="#"><span class="glyphicon glyphicon-flag"> HistoryData </span></a>
+              <a href="#"><span class="glyphicon glyphicon-question-sign"> Helps </span></a>
+            </div>
+        </div>
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading text-center">Watch Clock</div>
+              <div class="panel-body"><img src="clock.jpg" class="img-responsive " style="width:87%" alt="image" >
+              </div>
+              <div class="panel-footer text-center">The world time..</div>
+            </div>
+          </div>
+          <div class="col-md-6  login-page">
+            <h1 class="heading-text">LOG IN</h1>
+            <p class="paragraph">Please enter the mail and password</p>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <input type="email" class="form-control input-sm" id="email" placeholder="email" name="email" required="">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control input-sm" id="pwd" placeholder="password" name="pwd" required="">
+              </div>
+              <div class="form-group checkbox">
+                <label><input type="checkbox">Show the Password</label>
+              </div>
+              <div class="form-group">
+                <input type="Submit" class="btn btn-info pull-left"  value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>  
